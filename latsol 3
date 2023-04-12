@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void findMax()
+{
+	int N;
+	cin>>N;
+	int max=-99999, tae;
+	for (int i=0;i<N;i++){
+		cin>>tae;
+		if (max<tae) max=tae;
+	}
+	cout<<max;
+}
